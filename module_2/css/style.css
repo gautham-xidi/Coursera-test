@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -122,3 +123,129 @@ p {
         width: 97%;
     }
 }
+=======
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:"Bungee Shade";
+    font-size: 40px;
+}
+
+div {
+    display: inline-block;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+    padding: 20px 5px 0px 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+#chicken {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: chartreuse;
+    color: black;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px 10px 3px 10px;
+    margin: -1px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#beef {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 195, 255);
+    color: black;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px 10px 3px 10px;
+    margin: -1px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#sushi {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px 10px 3px 10px;
+    margin: -1px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.col1 {
+    border: 2px solid black;
+    margin: 10px; 
+    background-color: gray;
+    width: 490px;
+    position: relative;
+}
+
+.col2 {
+    border: 2px solid black;
+    margin: 10px;
+    background-color: gray;
+    width: 490px;
+    position: relative;
+}
+
+.col3 {
+    border: 2px solid black;
+    margin: 10px;
+    background-color: gray;
+    width: 490px;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .col1 {
+        width: 30.5%;
+    }
+    .col2 {
+        width: 30.5%;
+    }
+    .col3 {
+        width: 30.5%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col1 {
+        width: 47%;
+    }
+    .col2 {
+        width: 47%;
+    }
+    .col3 {
+        width: 97%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col1, .col2, .col3 {
+        width: 97%;
+    }
+}
+>>>>>>> 4594bf03851d27e4578b7b23c62143944606fe7b
