@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+    height: 100px;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .container-fluid .navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px orange;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+  }
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: rebeccapurple;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid rebeccapurple;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  .row {
+    width: 90%;
+    text-align: center;
+  }
+  .row div {
+    display: inline-block;
+  }
+  .row p {
+    text-align: left;
+    padding: 5px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:"Bungee Shade";
+    font-size: 40px;
+    color: black;
+  }
+  #chicken, #beef, #sushi {
+    font-weight: bold;
+  }
+  .col1 {
+    border: 2px solid black;
+    margin: 12px; 
+    background-color: gray;
+    width: 450px;
+    position: relative;
+  }
+  
+  .col2 {
+    border: 2px solid black;
+    margin: 12px;
+    background-color: gray;
+    width: 450px;
+    position: relative;
+  }
+  
+  .col3 {
+    border: 2px solid black;
+    margin: 12px;
+    background-color: gray;
+    width: 450px;
+    position: relative;
+  }
+  
+  
+  
+  @media (min-width: 1200px) {
+    .col1 {
+        width: 30.5%;
+    }
+    .col2 {
+        width: 30.5%;
+    }
+    .col3 {
+        width: 30.5%
+    }
+    .row {
+      margin-left: 60px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .col1 {
+        width: 45%;
+    }
+    .col2 {
+        width: 45%;
+    }
+    .col3 {
+        width: 94%;
+    }
+    .row {
+      margin-left: 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col1, .col2, .col3 {
+        width: 97%;
+    }
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { 
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    .row {
+      margin-left: 35px;
+    }
+  }
