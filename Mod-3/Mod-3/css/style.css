@@ -46,7 +46,7 @@
   }
   .navbar-header button.navbar-toggle {
     clear: both;
-    margin-top: -30px;
+    margin-top: -50px;
   }
   /* END HEADER */
   .row {
@@ -144,4 +144,7 @@
     .row {
       margin-left: 25px;
     }
+    .visible-xs {
+      display: block !important;
+    } 
   }
